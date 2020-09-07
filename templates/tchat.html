@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Delirium Geek - {{.TchatName}}</title>
+
+  <h1>{{.TchatName}}</h1>
+
+  <div>
+    <h2>Discussion</h2>
+
+    <div class="others">
+      <!-- for message in messages -->
+
+      <p>{{.Name}}</p>
+      <p>{{.Message}}</p>
+    </div>
+    <div class="me">
+      <!-- for message in messages -->
+      
+      <p>{{.Name}}</p>
+      <p>{{.Message}}</p>
+    </div>
+  </div>
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Delirium geek</h1>
+  <a href="/tchat">Go to chat</a>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
